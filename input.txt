@@ -1,0 +1,26 @@
+purnank x;
+purnank y;
+purnank z;
+
+x = 10;
+y = 20;
+z = x + y;
+
+jo (x == 10) {
+    z = z * 2;
+}
+
+jo (z > y) {
+    y = y + 10;
+} nahitoh {
+    y = y - 5;
+}
+
+badlo (x) {
+    prkar 5:
+        z = 50;
+    prkar 10:
+        z = 100;
+    mulbhut:
+        z = 0;
+}
